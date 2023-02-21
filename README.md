@@ -22,7 +22,21 @@ Select the gear icon at the top-left to bring up the settings menu.
 
 For "Page Moving Direction", select "Vertical".
 
+## How to Use
+
+Ensure you are on the cover image of your purchased manga or a free preview.
+
+*Warning: If you are scrolled down to a later page, earlier images will be skipped.*
+
 Open the browser's console.  In Chromium, you can press Ctrl+Shift+I, then click on the "Console" option between "Elements" and "Sources".
+
+Paste the Javascript code into the console, then press Enter.
+
+Every two seconds, an image download then move to the next image.
+
+The time between images is required to ensure images load before being saved.  If blank images are being saved, change the "delayTime" variable before to a larger number, such as 3000 for three seconds.
+
+Wait for volume to complete saving.
 
 ## Code Limitations
 
@@ -35,17 +49,3 @@ It should be simple to extend the code to detect whether the direction is set to
 BookWalker's canvas for displaying images is designed for showing two pages side-by-side.  The consequence for saving single-page images is that they will have white bars padding the left and right sides of pages.  You can use bulk image editing software to remove these.
 
 If BookWalker updates their website's HTML, this code may cease to function.
-
-## How to Use
-
-Ensure you are on the cover image of your purchased manga or a free preview.
-
-*Warning: If you are scrolled down to a later page, earlier images will be skipped.*
-
-Paste the Javascript code into the console, then press Enter.
-
-Every two seconds, an image download then move to the next image.
-
-The time between images is required to ensure images load before being saved.  If blank images are being saved, change the "delayTime" variable before to a larger number, such as 3000 for three seconds.
-
-Wait for volume to complete saving.
