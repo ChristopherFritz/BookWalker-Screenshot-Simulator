@@ -46,6 +46,8 @@ Settings are written directly into the code.
 
 It should be simple to extend the code to detect whether the direction is set to vertical or hortizontal, but I have only implemented support for vertical.
 
+A delay between images is required becase images are displayed on a canvas, and there is no DOM event to know when an image has been displayed on a canvas.
+
 BookWalker's canvas for displaying images is designed for showing two pages side-by-side.  The consequence for saving single-page images is that they will have white bars padding the left and right sides of pages.  You can use bulk image editing software to remove these.
 
 If BookWalker updates their website's HTML, this code may cease to function.
