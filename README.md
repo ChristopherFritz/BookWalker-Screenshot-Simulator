@@ -1,6 +1,6 @@
 # BookWalker Screenshot Simulator
 
-This code is a proof-of-concept.
+This code is a proof-of-concept.  It saves images of the cavas pages from BookWalker, similar to manually taking screenshots of the pages.
 
 The idea was to be able to back-up BookWalker purchases and to be able to run them through Mokuro.
 
