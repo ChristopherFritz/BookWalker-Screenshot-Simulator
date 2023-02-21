@@ -32,7 +32,7 @@ Open the browser's console.  In Chromium, you can press Ctrl+Shift+I, then click
 
 Paste the Javascript code into the console, then press Enter.
 
-Every two seconds, an image download then move to the next image.
+Every two seconds, an image downloads then moves to the next image.
 
 The time between images is required to ensure images load before being saved.  If blank images are being saved, change the "delayTime" variable before to a larger number, such as 3000 for three seconds.
 
