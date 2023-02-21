@@ -2,9 +2,9 @@
 
 This code is a proof-of-concept.
 
-The idea was to be able to back-up BookWalker purchases and run them through Mokuro.  However, because of the need to crop images (an extra step) and because the original JPEG image files are not accessible as they are when buying from Kobo or Amazon, I decided to stick with buying manga through Kobo.
+The idea was to be able to back-up BookWalker purchases and to be able to run them through Mokuro.
 
-If BookWalker updates their website's HTML, this code may cease to function.
+However, because of the need to crop images (an extra step) and because the original JPEG image files are not accessible as they are when buying from Kobo or Amazon, I decided to stick with buying manga through Kobo.
 
 ## Software Requirements
 
@@ -33,6 +33,8 @@ Settings are written directly into the code.
 It should be simple to extend the code to detect whether the direction is set to vertical or hortizontal, but I have only implemented support for vertical.
 
 BookWalker's canvas for displaying images is designed for showing two pages side-by-side.  The consequence for saving single-page images is that they will have white bars padding the left and right sides of pages.  You can use bulk image editing software to remove these.
+
+If BookWalker updates their website's HTML, this code may cease to function.
 
 ## How to Use
 
