@@ -53,7 +53,7 @@ while (downloadedPages.length < pageCount) {
         downloadedImageCount += 1
     }
 
-    // If no images were downloaded, then likely all images are downloaded, and the infinite loop can be exited.  This situation shouldn't occur, but is here just in case.
+    // If no images were downloaded, then likely all images are downloaded, and the loop can be exited.  This situation shouldn't occur, but is here just in case.
     if (0 == downloadedImageCount) {
         console.log("Downloading complete!")
         break
