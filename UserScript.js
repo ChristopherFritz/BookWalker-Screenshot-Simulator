@@ -4,6 +4,7 @@
 // @version      2025-11-09
 // @description  Download all pages from a BookWalker volume
 // @author       Christopher Fritz
+// @license MIT
 // @match        https://viewer-trial.bookwalker.jp/*/viewer.html*
 // @match        https://viewer.bookwalker.jp/*/viewer.html?*
 // @grant        none
