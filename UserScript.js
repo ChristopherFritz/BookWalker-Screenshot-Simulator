@@ -361,8 +361,8 @@
     }
     // Get the current volume name from the input field
     const currentVolumeName = volumeNameInput?.value || volumeName
-    const fileName = `${currentVolumeName} ${canvas.parentElement.id.replace('wideScreen', ' Page ')}.png`
-    const image = canvas.toDataURL('image/png').replace('image/png', 'image/octet-stream')
+    const fileName = `${currentVolumeName} ${canvas.parentElement.id.replace('wideScreen', ' Page ')}.jpg`
+    const image = canvas.toDataURL('image/jpeg', 0.95).replace('image/jpeg', 'image/octet-stream')
     const downloadLink = document.createElement('a')
     downloadLink.href = image
     downloadLink.download = fileName
